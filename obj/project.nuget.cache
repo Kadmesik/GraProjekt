@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ufK8BNYPWg=",
+  "success": true,
+  "projectFilePath": "F:\\Informatyka\\C#\\GraProjekt\\MyGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kacpe\\.nuget\\packages\\colorminestandard\\1.0.0\\colorminestandard.1.0.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\coroutine\\2.1.5\\coroutine.2.1.5.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.1\\microsoft.win32.systemevents.9.0.1.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\sadconsole\\10.5.0\\sadconsole.10.5.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\sadconsole.extended\\10.5.0\\sadconsole.extended.10.5.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\sadconsole.host.monogame\\10.5.0\\sadconsole.host.monogame.10.5.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\system.drawing.common\\9.0.1\\system.drawing.common.9.0.1.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\thesadrogue.primitives\\1.6.0-rc3\\thesadrogue.primitives.1.6.0-rc3.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.10\\microsoft.netcore.app.ref.8.0.10.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.10\\microsoft.windowsdesktop.app.ref.8.0.10.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.10\\microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.10\\microsoft.netcore.app.host.win-x64.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
