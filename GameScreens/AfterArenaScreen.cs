@@ -26,13 +26,21 @@ namespace SadConsoleGame.Scenes;
         _mainSurface.Print(20, 7, $"Zdobyles rowniez {experience} punktow doswiadczenia");
         _mainSurface.Print(20, 9, $"Wcisnij enter aby kontynuowac...");
 
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
 
         playerStats.Gold = playerStats.Gold + gold;
-        playerStats.Experience = playerStats.Experience + experience;
 
-        PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Gold", playerStats.Gold);
-        PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Experience", playerStats.Experience);
+        if(playerStats.Experience + experience >= 100)
+        {
+            playerStats.Experience = 100;
+        }
+        else
+        {
+        playerStats.Experience = playerStats.Experience + experience;
+        }
+
+        PlayerStats.UpdateStat("./Data/playerstats.json", "Gold", playerStats.Gold);
+        PlayerStats.UpdateStat("./Data/playerstats.json", "Experience", playerStats.Experience);
 
 
 

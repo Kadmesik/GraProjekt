@@ -26,7 +26,7 @@ class ArenaScreen : ScreenObject
         _mainSurface = new ScreenSurface(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT);
 
 
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         int[] rgb = playerStats.CarnationRGBcode;
         Color color = new Color(rgb[0], rgb[1], rgb[2]);
         BattleHp = playerStats.Health;
@@ -47,7 +47,7 @@ class ArenaScreen : ScreenObject
 
     public override bool ProcessKeyboard(Keyboard keyboard)
     {
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         bool handled = false;
 
             if(MonsterAlive == false)

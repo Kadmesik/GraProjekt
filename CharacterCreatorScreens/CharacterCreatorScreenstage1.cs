@@ -62,13 +62,13 @@ class CharacterCreatorScreen1 : ScreenObject
 
                 if (player.Carnation != null && player.Carnation != "")
                 {
-                    player.SaveToJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+                    player.SaveToJson("./Data/playerstats.json");
                 }
                 else
                 {
                     DrawingTools.DrawBlankAvatarPlace(_mainSurface);
                 }
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "CarnationRGBcode", selectedColor[thiefbility] );
+                PlayerStats.UpdateStat("./Data/playerstats.json", "CarnationRGBcode", selectedColor[thiefbility] );
 
                 SadConsole.Game.Instance.Screen = new CharacterCreatorScreen2();
 

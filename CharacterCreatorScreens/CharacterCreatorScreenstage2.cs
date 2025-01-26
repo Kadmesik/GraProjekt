@@ -13,7 +13,7 @@ class CharacterCreatorScreen2 : ScreenObject
 
         DrawingTools.DrawBlankAvatarPlace(_mainSurface);
 
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         int[] rgb = playerStats.CarnationRGBcode;
         Color color = new Color(rgb[0], rgb[1], rgb[2]);
         DrawingTools.DrawAvatar(_mainSurface, color);
@@ -55,8 +55,8 @@ class CharacterCreatorScreen2 : ScreenObject
 
                 _mainSurface.Print(30, 22, $"Zatwierdzono! Kryt: {Slider}, Zycie: {10-Slider}");
 
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Crit", Slider);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Health", 10-Slider);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Crit", Slider);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Health", 10-Slider);
 
                 SadConsole.Game.Instance.Screen = new CharacterCreatorScreen3();
 

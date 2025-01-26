@@ -1,13 +1,13 @@
 {
-  "Carnation": "Ciemny bez",
-  "Crit": 7,
-  "Strenght": 4,
-  "Health": 3,
-  "Armor": 6,
+  "Carnation": "Bez",
+  "Crit": 3,
+  "Strenght": 6,
+  "Health": 7,
+  "Armor": 4,
   "CarnationRGBcode": [
-    204,
-    153,
-    102
+    230,
+    184,
+    138
   ],
   "Experience": 0,
   "Gold": 0,

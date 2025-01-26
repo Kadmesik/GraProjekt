@@ -13,7 +13,7 @@ class CharacterCreatorScreen3 : ScreenObject
 
         DrawingTools.DrawBlankAvatarPlace(_mainSurface);
 
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         _mainSurface.Print(40, 3, $"{playerStats.Carnation}", Color.Violet);
         _mainSurface.Print(63, 5, $"{playerStats.Crit}", Color.Violet);
         _mainSurface.Print(44, 7, $"{playerStats.Health}", Color.Violet);
@@ -58,8 +58,8 @@ class CharacterCreatorScreen3 : ScreenObject
 
                 _mainSurface.Print(27, 22, $"Zatwierdzono! Sila: {Slider}, Pancerz: {10-Slider}");
 
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Strenght", Slider);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Armor", 10-Slider);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Strenght", Slider);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Armor", 10-Slider);
 
                 SadConsole.Game.Instance.Screen = new CharacterCreatorSummary();
 

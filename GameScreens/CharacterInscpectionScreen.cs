@@ -12,7 +12,7 @@ class CharacterInspectionScreen : ScreenObject
 
     public CharacterInspectionScreen()
     {
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         IsFocused = true;
         _mainSurface = new ScreenSurface(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT);
 
@@ -36,7 +36,7 @@ class CharacterInspectionScreen : ScreenObject
 
         _mainSurface.Print(4, 21, $"Level: {playerStats.Level}");
 
-        _mainSurface.Print(4, lastOption, "Wyjdz do menu gry ");
+        _mainSurface.Print(4, lastOption, "Wyjdz do menu gry ", Color.Red);
 
         _mainSurface.DrawBox(new Rectangle(40, 1, 38, 23), ShapeParameters.CreateStyledBox(ICellSurface.ConnectedLineThin, new ColoredGlyph(Color.Violet, Color.Black)));
 
@@ -48,7 +48,7 @@ class CharacterInspectionScreen : ScreenObject
     public override bool ProcessKeyboard(Keyboard keyboard)
     {
     bool handled = false;
-    PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+    PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
 
         if (keyboard.IsKeyPressed(SadConsole.Input.Keys.Down))
         {
@@ -108,7 +108,7 @@ class CharacterInspectionScreen : ScreenObject
                     StatisticsDescription.Level(_mainSurface, playerStats.Level);
                     break;
                 case 23:
-                    _mainSurface.Fill(new Rectangle(41, 2, 36, 21), Color.White, Color.Black, 0, Mirror.None);
+                    _mainSurface.Fill(new Rectangle(41, 2, 36, 21), Color.Black, Color.Black, 0, Mirror.None);
                 break;
         }
         if(keyboard.IsKeyPressed(SadConsole.Input.Keys.Enter) && selectedOption == 23)

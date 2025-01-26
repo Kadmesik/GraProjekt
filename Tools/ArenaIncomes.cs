@@ -17,7 +17,7 @@ namespace SadConsoleGame.Tools
             int Gains = 0; 
             if(Turn != 0)
             {
-                Gains = EnemyHP + EnemyARM + EnemyDMG;
+                Gains = (int)(EnemyHP + EnemyARM + EnemyDMG)/10;
             }
             return Gains;
         }

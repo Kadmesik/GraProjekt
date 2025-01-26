@@ -11,7 +11,7 @@ class ShopScreen : ScreenObject
 
     public ShopScreen()
     {
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         IsFocused = true;
         _mainSurface = new ScreenSurface(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT);
 
@@ -21,7 +21,7 @@ class ShopScreen : ScreenObject
     public override bool ProcessKeyboard(Keyboard keyboard)
         {
         bool handled = false;
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
 
             if (keyboard.IsKeyPressed(SadConsole.Input.Keys.Down))
             {
@@ -53,7 +53,7 @@ class ShopScreen : ScreenObject
             }
                 switch(selectedOption)
                 {
-                    case 1:
+                    case 1: 
                         
                     break;
                     case 3:

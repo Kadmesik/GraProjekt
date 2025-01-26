@@ -24,6 +24,15 @@ class DefaultViewScreen : ScreenObject
 
         _mainSurface.Print(25, lastOption, "Wroc do glownego menu");
 
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
+        
+        if(playerStats.Experience == 100)
+        {
+
+        _mainSurface.Print(5, 17, "Masz wystarczajaco doswiadczenia by ulepszyc poziom  swojej postaci!",Color.Violet);
+        _mainSurface.Print(18, 18, "Odwiedz medrca by dowiedziec sie wiecej", Color.Violet);
+        }
+
         
 
         Children.Add(_mainSurface);
@@ -69,10 +78,10 @@ class DefaultViewScreen : ScreenObject
                     SadConsole.Game.Instance.Screen = new ArenaScreen();
                     break;
                 case 8:
-
+                    SadConsole.Game.Instance.Screen = new ShopScreen();
                     break;
                 case 10:
-
+                    SadConsole.Game.Instance.Screen = new WiseManScreen();
                     break;
                 case 12:
                     SadConsole.Game.Instance.Screen = new CharacterInspectionScreen();

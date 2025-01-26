@@ -14,7 +14,8 @@ class InstructionScreen : ScreenObject
         _mainSurface.Print(15, 5, "1. By zmieniac dostepne opcje wystarczy uzyc strzalek.");
         _mainSurface.Print(15, 7, "2. Enter zatwierdza wybrana opcje.");
         _mainSurface.Print(15, 9, "3. info dotyczace statystyk znajdziesz w grze.");
-        _mainSurface.Print(15, 11, " Nacisnij Enter, aby wrocic do menu.");
+        _mainSurface.Print(15, 11, "4. Celem gry jest zdobycie 20 poziomu postaci!.");
+        _mainSurface.Print(15, 13, " Nacisnij Enter, aby wrocic do menu.");
 
 
         Children.Add(_mainSurface);

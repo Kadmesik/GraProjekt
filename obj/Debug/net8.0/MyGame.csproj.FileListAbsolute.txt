@@ -34,3 +34,4 @@ F:\Informatyka\C#\GraProjekt\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 F:\Informatyka\C#\GraProjekt\bin\Debug\net8.0\System.Drawing.Common.dll
 F:\Informatyka\C#\GraProjekt\bin\Debug\net8.0\System.Private.Windows.Core.dll
 F:\Informatyka\C#\GraProjekt\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\Informatyka\C#\GraProjekt\obj\Debug\net8.0\MyGame.sourcelink.json

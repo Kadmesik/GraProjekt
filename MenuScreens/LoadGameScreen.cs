@@ -15,7 +15,7 @@ class LoadGameScreen : ScreenObject
         IsFocused = true;
         _mainSurface = new ScreenSurface(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT);
 
-        PlayerStats playerStats = PlayerStats.LoadFromJson(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json");
+        PlayerStats playerStats = PlayerStats.LoadFromJson("./Data/playerstats.json");
         if(playerStats.Armor != 0)
         {
             IsGameSave = true;
@@ -70,16 +70,16 @@ class LoadGameScreen : ScreenObject
         {
             if(IsGameSave != false)
             {
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Strenght", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Armor", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Crit", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Health", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Gold", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Experience", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Agility", 25);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Carnation", "");
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Level", 0);
-                PlayerStats.UpdateStat(@"F:\Informatyka\C#\GraProjekt\Data\playerstats.json", "Block", 50);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Strenght", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Armor", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Crit", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Health", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Gold", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Experience", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Agility", 25);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Carnation", "");
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Level", 0);
+                PlayerStats.UpdateStat("./Data/playerstats.json", "Block", 50);
                 SadConsole.Game.Instance.Screen = new MenuScreen();
             }
 
