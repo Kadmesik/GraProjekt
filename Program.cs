@@ -1,6 +1,6 @@
 ﻿using SadConsole.Configuration;
 
-Settings.WindowTitle = "Gra RPG";
+Settings.WindowTitle = "WarForge";
 
 Builder gameStartup = new Builder()
     .SetScreenSize(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT)

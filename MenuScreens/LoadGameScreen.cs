@@ -81,6 +81,7 @@ class LoadGameScreen : ScreenObject
                 PlayerStats.UpdateStat("./Data/playerstats.json", "Level", 0);
                 PlayerStats.UpdateStat("./Data/playerstats.json", "Block", 50);
                 SadConsole.Game.Instance.Screen = new MenuScreen();
+                File.Delete("./Data/shop_items.json");
             }
 
         }

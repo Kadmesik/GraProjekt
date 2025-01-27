@@ -14,10 +14,7 @@ class MenuScreen : ScreenObject
 
         _mainSurface = new ScreenSurface(GameSettings.GAME_WIDTH, GameSettings.GAME_HEIGHT);
 
-        //BackgroundRenderer.DrawBackgroundFromImage(_mainSurface, "F:/Informatyka/C#/GraProjekt/Images/bgimage");
-        // TODO: trzeba naprawic generowanie tla
-
-        _mainSurface.Print(31, 2, "Witaj w grze!");
+        _mainSurface.Print(31, 2, "Witaj w WarForge!", Color.Gold);
 
         _mainSurface.Print(29, firstOption, "> Zacznij nowa gre");
 

@@ -1,9 +1,9 @@
 {
-  "Carnation": "Bez",
-  "Crit": 3,
-  "Strenght": 6,
-  "Health": 7,
-  "Armor": 4,
+  "Carnation": "",
+  "Crit": 0,
+  "Strenght": 0,
+  "Health": 0,
+  "Armor": 0,
   "CarnationRGBcode": [
     230,
     184,
