@@ -37,8 +37,8 @@ class ArenaScreen : ScreenObject
         _mainSurface.Print(49, 22, "ucieczka");
         _mainSurface.Print(22, 22, ">", Color.Yellow);
 
-        DrawingTools.DrawHero(_mainSurface, color, 50, 8);
-        DrawingTools.DrawHero(_mainSurface, Color.RoyalBlue, 20, 8);
+        DrawingTools.DrawHero(_mainSurface, color, 44, 8);
+        DrawingTools.DrawHero(_mainSurface, Color.RoyalBlue, 16, 8);
 
         Monster monster = new Monster(Turn);
 

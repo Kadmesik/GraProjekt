@@ -1,16 +1,16 @@
 {
-  "Carnation": "Ciemny karmel",
-  "Crit": 1,
-  "Strenght": 8,
-  "Health": 9,
-  "Armor": 2,
+  "Carnation": "",
+  "Crit": 0,
+  "Strenght": 0,
+  "Health": 0,
+  "Armor": 0,
   "CarnationRGBcode": [
-    128,
-    64,
-    32
+    230,
+    184,
+    138
   ],
-  "Experience": 1,
-  "Gold": 51,
+  "Experience": 0,
+  "Gold": 0,
   "Agility": 25,
   "Level": 0,
   "Block": 50

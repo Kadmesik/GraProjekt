@@ -22,6 +22,7 @@ class CharacterCreatorSummary : ScreenObject
         _mainSurface.Print(47, 11, $"{playerStats.Armor}", Color.Violet);
         PlayerStats.UpdateStat("./Data/playerstats.json", "Block", 50);
         PlayerStats.UpdateStat("./Data/playerstats.json", "Agility", 25);
+        File.Delete("./Data/shop_items.json");
         _mainSurface.Print(13, 18, "Postac gotowa do gry, wcisnij enter aby kontynuowac!");
 
         int[] rgb = playerStats.CarnationRGBcode;

@@ -23,6 +23,7 @@ class MenuScreen : ScreenObject
         _mainSurface.Print(31, 10, "Instrukcja");
 
         _mainSurface.Print(31, lastOption, "Wyjdz");
+        
 
         
 

@@ -201,15 +201,15 @@ namespace SadConsoleGame.Scenes
             // 1nazwa, 2cena, 3kryt, 4sila, 5zycie, 6pancerz, 7zwinnosc, 8blok
             items = new List<Item>
             {
-                new Item("Ciern", 4000, 0, 0, 25, 35, 0, 0, false),
-                new Item("Ostrze Nieskonczonosci", 2000, 30, 25, 0, 0, 0, 0, false),
-                new Item("Laczki Judasza", 1000, 0, 0, 4, 0, 35, 0, false),
-                new Item("Stalowe Serce", 1400, 0, 0, 0, 0, 30, 0, false),
-                new Item("Plaszcz Negacji", 2300, 0, 0, 10, 0, 0, 10, false),
-                new Item("Ostrze zniszczonego krola", 1800, 10, 20, 0, 0, 0, 0, false),
-                new Item("obsydianowy tasak", 3200, 10, 0, 10, 0, 10, 0, false),
-                new Item("helm wojownika", 1000, 0, 5, 10, 0, 0, 0, false),
-                new Item("nagolenniki", 500, 5, 5, 5, 5, 5, 5, false),
+                new Item("Ciern", 2800, 0, 0, 15, 35, 0, 7, false),
+                new Item("Ostrze Nieskonczonosci", 2500, 20, 25, 0, 0, 0, 0, false),
+                new Item("Laczki Judasza", 2000, 0, 0, 4, 0, 35, 0, false),
+                new Item("Stalowe Serce", 2100, 0, 0, 25, 10, 0, 5, false),
+                new Item("Plaszcz Negacji", 1500, 0, 0, 10, 0, 15, 5, false),
+                new Item("Ostrze zniszczonego krola", 800, 5, 10, 0, 0, 0, 0, false),
+                new Item("obsydianowy tasak", 200, 5, 5, 0, 0, 0, 0, false),
+                new Item("helm wojownika", 250, 0, 0, 10, 5, 0, 0, false),
+                new Item("nagolenniki", 200, 0, 0, 0, 5, 0, 5, false),
                 new Item("nwm", 0, 0, 0, 0, 0, 0, 0, false), // Notka dla przyszłego mnie: nie usuwaj bo się psuje XD
             };
             // Tworzymy plik z domyślnymi danymi

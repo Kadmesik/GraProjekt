@@ -47,20 +47,11 @@ namespace SadConsoleGame.Tools
         {
             surface.Fill(new Rectangle(0, 0, 25, 15), Color.White, Color.White, 0, Mirror.None);
         }
-        public static void DrawMonster(ScreenSurface surface, Color color, int posx, int posy)
-        {
-
-        }
         public static void DrawHero(ScreenSurface surface, Color color, int posx, int posy)
         {
-            surface.Fill(new Rectangle(6+posx, 0+posy, 3, 1), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(8+posx, 0+posy, 1, 9), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(7+posx, 3+posy, 3, 1), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(6+posx, 8+posy, 1, 3), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(9+posx, 4+posy, 1, 3), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(8+posx, 8+posy, 1, 2), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(9+posx, 9+posy, 1, 2), Color.Black, color, 0, Mirror.None);
-            surface.Fill(new Rectangle(5+posx, 4+posy, 1, 2), Color.Black, color, 0, Mirror.None);
+            surface.Fill(new Rectangle(6+posx, 0+posy, 8, 4), Color.Black, color, 0, Mirror.None);
+            surface.Fill(new Rectangle(8+posx, 4+posy, 4, 1), Color.Black, color, 0, Mirror.None);
+            surface.Fill(new Rectangle(7+posx, 5+posy, 6, 6), Color.Black, color, 0, Mirror.None);
         }
     }
 }

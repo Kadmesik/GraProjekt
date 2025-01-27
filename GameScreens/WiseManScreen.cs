@@ -45,8 +45,10 @@ class WiseManScreen : ScreenObject
         {
             playerStats.Level ++ ;
             playerStats.Experience = 0 ;
+            playerStats.Health += 5;
             PlayerStats.UpdateStat("./Data/playerstats.json", "Experience", playerStats.Experience);
             PlayerStats.UpdateStat("./Data/playerstats.json", "Level", playerStats.Level);
+            PlayerStats.UpdateStat("./Data/playerstats.json", "Health", playerStats.Health);
             _mainSurface.Fill(new Rectangle(10, 20, 60, 2), Color.Green, Color.White, 0, Mirror.None);
             _mainSurface.Fill(new Rectangle(10, 9, 70, 2), Color.Green, Color.Black, 0, Mirror.None); 
             _mainSurface.Print(30, 23, "Obecny poziom: ", Color.LimeGreen);
