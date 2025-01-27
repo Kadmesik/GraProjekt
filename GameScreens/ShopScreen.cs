@@ -51,7 +51,7 @@ namespace SadConsoleGame.Scenes
 
             _mainSurface.DrawBox(new Rectangle(40, 1, 38, 23), ShapeParameters.CreateStyledBox(ICellSurface.ConnectedLineThin, new ColoredGlyph(Color.Violet, Color.Black)));
             
-            _mainSurface.Print(4, 23, "Wroc do menu gry", Color.White);
+            _mainSurface.Print(4, 23, "Wroc do menu gry", Color.Red);
 
             for(int i = 0; i<9; i++)
             {

@@ -1,0 +1,112 @@
+[
+  {
+    "Name": "Ciern",
+    "Price": 4000,
+    "Crit": 0,
+    "Strength": 0,
+    "Health": 25,
+    "Armor": 35,
+    "Agility": 0,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "Ostrze Nieskonczonosci",
+    "Price": 2000,
+    "Crit": 30,
+    "Strength": 25,
+    "Health": 0,
+    "Armor": 0,
+    "Agility": 0,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "Laczki Judasza",
+    "Price": 1000,
+    "Crit": 0,
+    "Strength": 0,
+    "Health": 4,
+    "Armor": 0,
+    "Agility": 35,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "Stalowe Serce",
+    "Price": 1400,
+    "Crit": 0,
+    "Strength": 0,
+    "Health": 0,
+    "Armor": 0,
+    "Agility": 30,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "Plaszcz Negacji",
+    "Price": 2300,
+    "Crit": 0,
+    "Strength": 0,
+    "Health": 10,
+    "Armor": 0,
+    "Agility": 0,
+    "Block": 10,
+    "IsBought": false
+  },
+  {
+    "Name": "Ostrze zniszczonego krola",
+    "Price": 1800,
+    "Crit": 10,
+    "Strength": 20,
+    "Health": 0,
+    "Armor": 0,
+    "Agility": 0,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "obsydianowy tasak",
+    "Price": 3200,
+    "Crit": 10,
+    "Strength": 0,
+    "Health": 10,
+    "Armor": 0,
+    "Agility": 10,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "helm wojownika",
+    "Price": 1000,
+    "Crit": 0,
+    "Strength": 5,
+    "Health": 10,
+    "Armor": 0,
+    "Agility": 0,
+    "Block": 0,
+    "IsBought": false
+  },
+  {
+    "Name": "nagolenniki",
+    "Price": 500,
+    "Crit": 5,
+    "Strength": 5,
+    "Health": 5,
+    "Armor": 5,
+    "Agility": 5,
+    "Block": 5,
+    "IsBought": false
+  },
+  {
+    "Name": "nwm",
+    "Price": 0,
+    "Crit": 0,
+    "Strength": 0,
+    "Health": 0,
+    "Armor": 0,
+    "Agility": 0,
+    "Block": 0,
+    "IsBought": false
+  }
+]
